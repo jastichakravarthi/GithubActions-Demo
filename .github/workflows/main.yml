@@ -6,14 +6,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: execute a linux command
-    run: echo "hello all"
+      run: echo "hello all"
   job2: 
    runs-on: ubuntu-24.04
    steps: 
    - name: execute set of linux commands
-  run: |
-   hostname -S
-   echo " thanks you all"
+     run: |
+      hostname -S
+       echo " thanks you all"
 
 
 
