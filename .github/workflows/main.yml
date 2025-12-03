@@ -3,7 +3,7 @@ name: workflow-runs linux commands
 on: workflow_dispatch
 jobs:
   job1:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: execute a linux command
     run: echo "hello all"
