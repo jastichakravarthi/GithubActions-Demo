@@ -1,0 +1,10 @@
+name: github workflow actions
+on: push
+jobs: 
+    job1:  
+        runs-on: ubuntu-latest
+        steps: 
+            - name: linux commands
+              run: apt update
+            - name: linux commands
+              run: apt install vim
