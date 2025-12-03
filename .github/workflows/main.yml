@@ -11,7 +11,10 @@ jobs:
    runs-on: ubuntu-24.04
    steps: 
    - name: execute set of linux commands
-   run: |
-    hostname -s
-    echo " thanks you all"
+  run: |
+   hostname -s
+   echo " thanks you all"
+
+
+
 
