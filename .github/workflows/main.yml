@@ -11,7 +11,7 @@ jobs:
    steps: 
       - name: execute set of linux commands
         run: |
-          hostname -S
+          hostname -s
           echo " thanks you all"
 
 
